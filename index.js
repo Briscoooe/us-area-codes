@@ -8,5 +8,5 @@ exports.get = code => {
 
 	const state = codes[code];
 
-	return state !== undefined ? state : "Looks like that area code doesn't exist in North America."
+	return state !== undefined ? state : null;
 };
